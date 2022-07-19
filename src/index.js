@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Users from './components/users/users';
+import Usrs from './components/users/users';
 import './index.css';
+import "bootstrap/dist/css/bootstrap.css";
+
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Users />
+    <Usrs />
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+
